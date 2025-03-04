@@ -13,6 +13,15 @@ class ProjectService {
 	getProjects(): Project[] {
 		return this.projects;
 	}
+
+	searchProjects(query: string): Project[] {
+		const searchTerm = query.toLowerCase();
+		return this.projects.filter(
+			(project) =>
+				project.title.toLowerCase().includes(searchTerm) ||
+				project.description.toLowerCase().includes(searchTerm)
+		);
+	}
 }
 
 export const projectService = new ProjectService();

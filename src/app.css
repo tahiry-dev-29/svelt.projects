@@ -1,5 +1,11 @@
 @import 'tailwindcss';
 
+:root {
+	--color-bg-0: #fff;
+	--color-bg-1: #f5f5f5;
+	--color-bg-2: #eee;
+}
+
 body {
 	min-height: 100vh;
 	margin: 0;
@@ -12,3 +18,9 @@ body {
 }
 
 @plugin '@tailwindcss/forms';
+
+@layer components {
+	.active {
+		@apply border-b-4 font-bold text-white duration-150;
+	}
+}
