@@ -17,9 +17,7 @@
 		</a>
 		<nav class="flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-auto">
 			<a class="mr-5 hover:text-white" href="/">Home</a>
-			<a class="mr-5 hover:text-white" href="/about-us">About</a>
-			<a class="mr-5 hover:text-white" href="/contact">Contact</a>
-			<a class="mr-5 hover:text-white" href="/blog">Blog</a>
+			<a class="mr-5 hover:text-white" href="/contact">Contacts</a>
 		</nav>
 		<button
 			class="mt-4 inline-flex items-center rounded border-0 bg-gray-800 px-3 py-1 text-base hover:bg-gray-700 focus:outline-none md:mt-0"
