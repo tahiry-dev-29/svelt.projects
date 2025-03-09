@@ -5,7 +5,6 @@
 
 	const allProjects = projectService.getProjects();
 
-	// Utilisez les résultats de recherche s'il y a une requête, sinon affichez tous les projets
 	$: displayedProjects = $searchQuery ? $searchResults : allProjects;
 </script>
 
