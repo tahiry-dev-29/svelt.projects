@@ -12,8 +12,8 @@
 	<title>Projects</title>
 </svelte:head>
 
-<div class="py-8">
-	<h1 class="mb-12 text-center text-4xl font-bold text-white">My Projects</h1>
+<div class="py-1">
+	<h1 class="mb-12 text-center text-2xl font-bold text-white">My Projects</h1>
 	{#if displayedProjects.length === 0}
 		<p class="text-center text-gray-400">No projects found</p>
 	{:else}
