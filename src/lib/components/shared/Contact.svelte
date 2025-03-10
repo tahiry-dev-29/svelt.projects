@@ -51,13 +51,14 @@
 					>
 				</div>
 				<div class="mt-8 w-full border-t border-gray-800 p-2 pt-8 text-center">
-					<a class="text-indigo-400">example@email.com</a>
+					<a class="text-indigo-400" href="/">example@email.com</a>
 					<p class="my-5 leading-normal">
 						49 Smith St.
 						<br />Saint Cloud, MN 56301
 					</p>
 					<span class="inline-flex">
-						<a class="text-gray-500">
+						<!-- svelte-ignore a11y_consider_explicit_label -->
+						<a href="/" class="text-gray-500">
 							<svg
 								fill="currentColor"
 								stroke-linecap="round"
@@ -69,7 +70,8 @@
 								<path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
 							</svg>
 						</a>
-						<a class="ml-4 text-gray-500">
+						<!-- svelte-ignore a11y_consider_explicit_label -->
+						<a href="/" class="ml-4 text-gray-500">
 							<svg
 								fill="currentColor"
 								stroke-linecap="round"
@@ -83,7 +85,8 @@
 								></path>
 							</svg>
 						</a>
-						<a class="ml-4 text-gray-500">
+						<!-- svelte-ignore a11y_consider_explicit_label -->
+						<a href="/" class="ml-4 text-gray-500">
 							<svg
 								fill="none"
 								stroke="currentColor"
@@ -97,7 +100,8 @@
 								<path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
 							</svg>
 						</a>
-						<a class="ml-4 text-gray-500">
+						<!-- svelte-ignore a11y_consider_explicit_label -->
+						<a href="/" class="ml-4 text-gray-500">
 							<svg
 								fill="currentColor"
 								stroke-linecap="round"

@@ -20,7 +20,7 @@
 		});
 </script>
 
-<nav aria-label="Breadcrumb" class="container mx-auto bg-gray-900 px-4 py-2">
+<nav aria-label="Breadcrumb" class="container mx-auto bg-gray-900 px-4 py-3.5">
 	<ol class="flex items-center space-x-2 text-sm">
 		<li>
 			<a href="/" class="text-indigo-400 transition-colors duration-200 hover:text-indigo-300">

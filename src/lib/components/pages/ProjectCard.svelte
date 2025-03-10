@@ -6,7 +6,7 @@
 
 <a
 	href={project.route}
-	class="group relative block h-80 w-64 overflow-hidden rounded-lg border border-gray-700 bg-gray-900/60 px-4 py-2 shadow-md backdrop-blur-sm transition-transform hover:-translate-y-1 hover:shadow-lg"
+	class="group relative block h-80 w-64 overflow-hidden rounded-lg border border-gray-700 bg-gray-900/60 px-4 py-2 shadow-md backdrop-blur-sm transition-transform hover:shadow-lg"
 >
 	<div class="relative mb-2 h-40 w-full overflow-hidden rounded-md">
 		<img
